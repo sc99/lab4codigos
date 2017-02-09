@@ -14,7 +14,6 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.WindowConstants;
 import javax.swing.border.EmptyBorder;
-
 /**
  * 
  * Interfaz para nuestra calculadora basica
@@ -50,11 +49,11 @@ public class Calculadora extends JFrame {
 	 */
 	public Calculadora() {
 		super();
-		setSize(250, 300);
+		setSize(300, 300);
 		setTitle("Calculadora Simple");
 		setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		setResizable(false);
-
+                System.out.println("ASD");
 		// Vamos a dibujar sobre el panel
 		JPanel panel = (JPanel) this.getContentPane();
 		panel.setLayout(new BorderLayout());
