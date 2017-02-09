@@ -193,4 +193,8 @@ public class Calculadora extends JFrame {
 		pantalla.setText("" + resultado);
 		operacion = "";
 	}
+        private void msj()
+        {
+            System.out.println("Hola");
+        }
 }
